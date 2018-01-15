@@ -1,0 +1,93 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+There is a total of 68 columns in this data set. Each row contains data related to 1 activity for a certain person.
+
+There are data for 30 persons, each one was tracked for 6 activities, so there are a total of 180 rows of data.
+
+Each row contains data for 66 variables, each one being the average of the raw data for the corresponding person/activity combination.
+
+## Variables
+participants: participant1 - 30
+
+activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+
+The remaining list of variables is below:
+
+You can identify their meaning by examining how each variable is named:
+
+Variables starting with "TimeDomain" contains raw data, before the Fast Fourier Transform.
+
+Variables starting with "FrequencyDomain" contains data after the Fast Fourier Transform.
+
+The middle of the variable name indicates whether is was taken from the accelerometer or from the gyroscope and whetherit was the mean or standard deviation of a given field.
+
+FrequencyDomainBodyAccelerometerJerkMeanX
+FrequencyDomainBodyAccelerometerJerkMeanY
+FrequencyDomainBodyAccelerometerJerkMeanZ
+FrequencyDomainBodyAccelerometerJerkStdX
+FrequencyDomainBodyAccelerometerJerkStdY
+FrequencyDomainBodyAccelerometerJerkStdZ
+FrequencyDomainBodyAccelerometerMagnitudeMean
+FrequencyDomainBodyAccelerometerMagnitudeStd
+FrequencyDomainBodyAccelerometerMeanX
+FrequencyDomainBodyAccelerometerMeanY
+FrequencyDomainBodyAccelerometerMeanZ
+FrequencyDomainBodyAccelerometerStdX
+FrequencyDomainBodyAccelerometerStdY
+FrequencyDomainBodyAccelerometerStdZ
+FrequencyDomainBodyBodyAccelerometerJerkMagnitudeMean
+FrequencyDomainBodyBodyAccelerometerJerkMagnitudeStd
+FrequencyDomainBodyBodyGyroscopeJerkMagnitudeMean
+FrequencyDomainBodyBodyGyroscopeJerkMagnitudeStd
+FrequencyDomainBodyBodyGyroscopeMagnitudeMean
+FrequencyDomainBodyBodyGyroscopeMagnitudeStd
+FrequencyDomainBodyGyroscopeMeanX
+FrequencyDomainBodyGyroscopeMeanY
+FrequencyDomainBodyGyroscopeMeanZ
+FrequencyDomainBodyGyroscopeStdX
+FrequencyDomainBodyGyroscopeStdY
+FrequencyDomainBodyGyroscopeStdZ
+TimeDomainBodyAccelerometerJerkMagnitudeMean
+TimeDomainBodyAccelerometerJerkMagnitudeStd
+TimeDomainBodyAccelerometerJerkMeanX
+TimeDomainBodyAccelerometerJerkMeanY
+TimeDomainBodyAccelerometerJerkMeanZ
+TimeDomainBodyAccelerometerJerkStdX
+TimeDomainBodyAccelerometerJerkStdY
+TimeDomainBodyAccelerometerJerkStdZ
+TimeDomainBodyAccelerometerMagnitudeMean
+TimeDomainBodyAccelerometerMagnitudeStd
+TimeDomainBodyAccelerometerMeanX
+TimeDomainBodyAccelerometerMeanY
+TimeDomainBodyAccelerometerMeanZ
+TimeDomainBodyAccelerometerStdX
+TimeDomainBodyAccelerometerStdY
+TimeDomainBodyAccelerometerStdZ
+TimeDomainBodyGyroscopeJerkMagnitudeMean
+TimeDomainBodyGyroscopeJerkMagnitudeStd
+TimeDomainBodyGyroscopeJerkMeanX
+TimeDomainBodyGyroscopeJerkMeanY
+TimeDomainBodyGyroscopeJerkMeanZ
+TimeDomainBodyGyroscopeJerkStdX
+TimeDomainBodyGyroscopeJerkStdY
+TimeDomainBodyGyroscopeJerkStdZ
+TimeDomainBodyGyroscopeMagnitudeMean
+TimeDomainBodyGyroscopeMagnitudeStd
+TimeDomainBodyGyroscopeMeanX
+TimeDomainBodyGyroscopeMeanY
+TimeDomainBodyGyroscopeMeanZ
+TimeDomainBodyGyroscopeStdX
+TimeDomainBodyGyroscopeStdY
+TimeDomainBodyGyroscopeStdZ
+TimeDomainGravityAccelerometerMagnitudeMean
+TimeDomainGravityAccelerometerMagnitudeStd
+TimeDomainGravityAccelerometerMeanX
+TimeDomainGravityAccelerometerMeanY
+TimeDomainGravityAccelerometerMeanZ
+TimeDomainGravityAccelerometerStdX
+TimeDomainGravityAccelerometerStdY
+TimeDomainGravityAccelerometerStdZ
